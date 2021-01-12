@@ -37,6 +37,7 @@ public class Main {
 			System.out.println(" "+"First:"+ resultSet.getString("customerfirst"));
 			System.out.println(" "+"Last:"+ resultSet.getString("customerlast"));
 			System.out.println(" "+"Employee:"+ resultSet.getInt("employeeid"));
+			System.out.println(" "+"DOB:"+ resultSet.getDate("customerdob"));
 		}
 	} catch (ClassNotFoundException e) {
 		
